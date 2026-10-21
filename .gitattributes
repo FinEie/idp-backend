@@ -1,0 +1,10 @@
+# Project-specific overrides
+# Do not edit manually
+
+public/** linguist-vendored
+public/**/*.html linguist-vendored
+*.ico binary
+
+*.yaml linguist-detectable=false
+src/** linguist-detectable
+src/*.ts linguist-detectable
